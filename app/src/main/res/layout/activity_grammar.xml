@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zaman Seçin"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnPresentSimple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Present Simple"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/btnPastSimple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Past Simple"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/btnFutureSimple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Future Simple"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/btnPresentContinuous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Present Continuous"
+        android:padding="16dp"/>
+
+</LinearLayout> 
